@@ -1,0 +1,23 @@
+{
+  "name": "qfc-checker",
+  "version": "1.0.0",
+  "description": "a recurring checker for QFC stl",
+  "main": "checker.js",
+  "scripts": {
+    "start": "node checker.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sidetrail/qfc-checker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sidetrail/qfc-checker/issues"
+  },
+  "homepage": "https://github.com/Sidetrail/qfc-checker#readme",
+  "dependencies": {
+    "nodemailer": "^8.0.4"
+  }
+}
