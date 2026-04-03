@@ -17,4 +17,4 @@ jobs:
       - name: Run script
         run: npm start
         env:
-          SECRET_TEST_MESSAGE: ${{ secrets.SECRET_TEST_MESSAGE }}
+          GOOGLE_APP_PASSWORD: ${{ secrets.GOOGLE_APP_PASSWORD }}
